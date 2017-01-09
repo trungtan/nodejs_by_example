@@ -4,9 +4,8 @@
   "description": "Learn to use Node.js by creating a fully functional social network",
   "main": "server.js",
   "scripts": {
-    "babel": "babel --presets es2015 assets/js/main.js -o js/main.js",
-    "start": "node server.js",
-    "webpack": "webpack"
+    "prestart": "webpack",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -17,14 +16,14 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/trungtan/ebook_nodejs_by_example#readme",
   "devDependencies": {
+    "babel-loader": "^6.2.10",
     "babel-preset-es2015": "^6.18.0",
     "browser-sync": "^2.18.6",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
     "gulp-clean-css": "^2.3.2",
-    "gulp-sass": "^3.1.0"
-  },
-  "dependencies": {
+    "gulp-sass": "^3.1.0",
     "webpack": "^1.14.0"
-  }
+  },
+  "dependencies": {}
 }

@@ -2,8 +2,7 @@
 
 Learn to use Node.js by creating a fully functional social network
 
-### What is this repository for? ###
+### Installation ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* npm install
+* devDependency should be installed globally (especially for CLI modules9

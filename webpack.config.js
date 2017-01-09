@@ -5,10 +5,10 @@ var path = require('path');
 var webpack = require('webpack');
 
 module.exports = {
-    entry: './assets/js/main.es6.js',               // main js file
+    entry: './assets/js/main.js',               // main js file
     output: {
         path: path.resolve(__dirname, 'js'),    // built file
-        filename: 'main.es6.js'
+        filename: 'main.js'
     },
     module: {
         loaders: [
