@@ -4,8 +4,9 @@
   "description": "Learn to use Node.js by creating a fully functional social network",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "babel": "babel --presets es2015 assets/js/main.js -o js/main.js",
+    "start": "node server.js",
+    "webpack": "webpack"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
     "gulp-babel": "^6.1.2",
     "gulp-clean-css": "^2.3.2",
     "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "webpack": "^1.14.0"
   }
 }
