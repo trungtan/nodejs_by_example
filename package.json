@@ -1,0 +1,18 @@
+{
+  "name": "ebook_nodejs_by_example",
+  "version": "1.0.0",
+  "description": "Learn to use Node.js by creating a fully functional social network",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/trungtan/ebook_nodejs_by_example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/trungtan/ebook_nodejs_by_example#readme"
+}
