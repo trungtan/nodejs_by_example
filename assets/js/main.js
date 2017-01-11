@@ -3,7 +3,11 @@
  */
 import { log } from './modules/log';
 
+var ejs = require('ejs'),
+    people = ['geddy', 'neil', 'alex'],
+    html = ejs.render('<%= people.join(", "); %>', {people: people});
+
 log('Check modular client working');
 
 let body = document.querySelector('body');
-body.textContent = "Content from JavaScript";
+body.textContent = html;

@@ -18,8 +18,15 @@ module.exports = {
                 query: {
                     presets: ['es2015']
                 }
-            }
+            },
+            { test: /\.json$/, loader: 'json-loader' }
         ]
+    },
+    node: {
+        console: true,
+        fs: 'empty',
+        net: 'empty',
+        tls: 'empty'
     },
     stats: {
         colors: true
