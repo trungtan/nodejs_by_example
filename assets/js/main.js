@@ -1,5 +1,6 @@
 /**
  * Created by tan.bui on 9.1.2017.
+ * Cannot load ejs external template files
  */
 import { log } from './modules/log';
 
